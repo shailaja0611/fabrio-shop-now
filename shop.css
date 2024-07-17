@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    flex-wrap: wrap;
+}
+ul.navbar {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: white;
+}
+.navbar li {
+    float: left;
+    
+}
+.navbar li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 17px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    color: #a19e9e;
+}
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px 14px;
+    margin-left: 15%;
+    color: #000000;
+}
+.logo :hover {
+    color: #000000;
+}
+.account {
+    font-size: 16px;
+    float: right;
+    margin-left: 21%;
+}
+.cart {
+   font-size: 17px;
+   float: right;
+}
+.cart :hover {
+    color:black;
+}  
+.A{
+    font-size: 30px;
+    margin-left: 500px;
+} 
+.B{
+    flex-wrap: wrap;
+}
+
+.box-container{
+    padding: 20px;
+    margin: auto;
+    width: 100%;
+    max-width: 1300px;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+    row-gap: 30px;
+    column-gap: 0px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+.newsletter-section {
+    margin-bottom: 20px;
+}
+
+.newsletter-section h2 {
+    font-size: 2em;
+}
+
+.newsletter-input {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.newsletter-input input {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    width: 300px;
+    max-width: 100%;
+}
+
+.newsletter-input button {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+}
+
+.newsletter-input button:hover {
+    background-color: #777;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-content div {
+    margin: 10px;
+}
+
+.pages, .social {
+    text-align: left;
+}
+
+.pages ul, .social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pages li, .social li {
+    margin: 5px 0;
+}
+
+.pages a, .social a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.pages a:hover, .social a:hover {
+    text-decoration: underline;
+}
+
+.brand h2 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.brand p {
+   margin: 5px;
+}
