@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop detail</title>
+    <link rel="stylesheet" href="shopdetail.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" target="_blank">HOME</a></li>
+            <li><a href="#" target="_blank">PAGE</a>
+            <ul>
+                <li><a href="" target="_blank">ABOUT US</a></li>
+                <li><a href="" target="_blank">SHOP DETAILS</a></li>
+                <li><a href="" target="_blank">SHOP CATEGORY</a></li>
+                <li><a href="" target="_blank">BLOG</a></li>
+                <li><a href="" target="_blank">BLOG CATEGORY</a></li>
+                <li><a href="" target="_blank">BLOG SINGLE</a></li>
+                <li><a href="" target="_blank">404</a></li>
+            </ul>
+            </li>
+            <li><a href="#" target="_blank">SHOP</a></li>
+            <li><a href="#" target="_blank">CONTACT</a></li>
+        </ul>
+        <div class="logo"><h1>Fabrio</h1></div>
+        <div class="end">
+            <ul>
+            <li><a href="#" target="_blank">ACCOUNT</a></li>
+            <li><a href="" target="_blank" class="cart">CART 0</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="a">
+        <h1>SHOP DETAIL</h1>
+    </div>
+     <div class="b">
+        <img src="shopdetail images/1img.jpg">
+     </div>
+     <div class="c1-c2">
+        <div class="c1">
+            <img src="shopdetail images/2IMG.jpg" width="500px" height="500px">
+        </div>
+        <div class="c2">
+          <h1>SHIRTS</h1>  
+          <p>$ 56.00 USD
+            $ 60.00 USD</p>  
+          <p>utton-up tops with collars and long or short sleeves.They can be <br>
+            made of cotton, silk, or other materials and are available in different <br>
+            styles such as dress shirts, casual shirts, and flannel shirts.</p>    
+           <input type="text" placeholder="Quantity">
+    </div>
+    </div>
+     <div class="d1-d2">
+        <div class="d1">
+            <img src="shopdetail images/3IMG.jpg" height="300px" width="300px">
+            <img src="shopdetail images/4IMG.jpg" height="300px" width="300px">
+        </div>
+        
+        <div class="d2">
+            <button>info</button>
+            <button>Description</button>
+            
+            <ul>
+              <li>Before shopping, measure your bust, waist, hips, and inseam.</li>
+              <li>Consider the current season and weather when shopping.</li>
+              <li>Make a list of your favorite brands or stores to visit first.</li>
+              <li>Understand the return policy of the store, especially when buying online.</li>
+              <li>Opt for clothes that can be easily mixed and matched with other items</li>
+         </ul>
+        
+         
+     </div>
+     </div>
+     <div class="h">
+        <h1>NEWSLATTER</h1>
+        <input type="text" placeholder="Enter Your Email">
+   </div>
+   <footer>
+    <div class="footer-container">
+        <div class="pages">
+            <h3>PAGES</h3>
+            <ul>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">STYLE GUIDE</a></li>
+                <li><a href="#">LICENSES</a></li>
+                <li><a href="#">CHANGELOG</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="brand">
+            <h1>FABRIO</h1>
+            <p>Powered by Webflow created by PeacefulQode.</p>
+        </div>
+        <div class="social">
+            <h3>SOCIAL</h3>
+            <ul>
+                <li><a href="#">FACEBOOK</a></li>
+                <li><a href="#">INSTAGRAM</a></li>
+                <li><a href="#">YOUTUBE</a></li>
+                <li><a href="#">LINKEDIN</a></li>
+                <li><a href="#">TWITTER</a></li>
+            </ul>
+        </div>
+    </div>
+    </footer>
+    <script>
+    let input = document.querySelector(".h input");
+
+    input.addEventListener("keypress", function(event) {
+          if (event.key === 'Enter') {
+              input.value = "Thank you! Your submission has been received!";
+              input.style.color = "white";
+              input.style.backgroundColor = "green";
+              input.style.fontSize ="20px";
+              input.style.textAlign ="center";
+          }
+      });
+</script>
+
+
+
+</body>
+</html>
